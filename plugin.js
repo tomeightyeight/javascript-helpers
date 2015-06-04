@@ -1,9 +1,10 @@
-// jQuery Plugins & Extension Boilerplate
+// jQuery Plugin / Extension Boilerplate
 
 // Self invoking anonymous function so that we can have encapsulation and keeps our plugin 
-//compatible with jQuery.noConflict (for example if multiple libraries being used)
+// compatible with jQuery.noConflict (for example if multiple libraries being used)
 
 (function($) {
+	// The closure also gives us encapsulation (private and public methods & properties)
 	var _privateMethod = function() {
 		
 	};
@@ -37,3 +38,6 @@
 	};
 	
 })(jQuery);
+
+// Invoke custom jQuery method
+$('selector').publicMethod('action0', { option: 'value' });

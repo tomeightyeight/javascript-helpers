@@ -1,7 +1,7 @@
 // jQuery Plugin / Extension Boilerplate
 
-// Self invoking anonymous function so that we can have encapsulation and keeps our plugin 
-// compatible with jQuery.noConflict (for example if multiple libraries being used)
+// Self invoking anonymous function expression so that we can have encapsulation and keeps 
+// our plugin compatible with jQuery.noConflict (for example if multiple libraries being used)
 
 (function($) {
 	// The closure also gives us encapsulation (private and public methods & properties)
@@ -19,7 +19,7 @@
 		
 		// Do some stuff based on action - use this
 		switch(action) {
-			case 'action0':
+			case 'someAction':
 				break;
 			
 			case 'everyElementAction':
@@ -40,4 +40,4 @@
 })(jQuery);
 
 // Invoke custom jQuery method
-$('selector').publicMethod('action0', { option: 'value' });
+$('selector').publicMethod('action0', { customOption: 'value' });

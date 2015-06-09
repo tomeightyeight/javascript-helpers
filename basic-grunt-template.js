@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 			},
 
 			dist: {
-				src: ['./templates/global/js/**/*.js'],
+				src: ['./templates/global/js/*.js/', './templates/global/js/vendor/**/*.js'],
 				
 				dest: './templates/global/js/built/main.js'
 			}

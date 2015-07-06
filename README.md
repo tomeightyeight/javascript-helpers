@@ -1,2 +1,2 @@
 # javascript-helpers
-A collection of JavaScript Helpers & Boilerplate Code by Tom Humphris
+A collection of useful JavaScript helpers & boilerplate code by Tom Humphris
